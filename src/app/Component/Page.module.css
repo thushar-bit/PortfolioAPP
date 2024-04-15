@@ -1,0 +1,38 @@
+
+.progress-bar {
+    height: 10px;
+    background-color: #ccc;
+    position: relative;
+  }
+  
+  .progress-text {
+    position: absolute;
+    top: 50%;
+    right: -12%; /* Adjust as needed */
+    transform: translateY(-50%);
+    color: #ccc; /* Change color as needed */
+  }
+  /* components/your-styles.module.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}
+
+.box {
+  width: 1000px; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+  border: 2px solid #ccc;
+  background-color: white;
+  text-align: center;
+}
+
+.paragraph {
+  margin: 0;
+  padding: 20px;
+  color: #000;
+}
+
+  

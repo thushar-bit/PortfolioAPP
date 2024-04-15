@@ -25,6 +25,21 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+ 
+  margin-right: 10px;
+}
+
+
 
 @layer utilities {
   .text-balance {
